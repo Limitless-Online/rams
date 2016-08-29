@@ -1,0 +1,224 @@
+
+@media screen and (max-width:769px){
+	
+	section.header-container>a.loggedin-user-lnk,
+	section.header-container>section.search-container {
+		/* display: none; */
+	}
+	section.header-container>section.search-container {
+		/* width: 60%; */
+		margin: 5px 10px;
+	}
+	.search-container>input {
+		width: 80%;
+	}
+	.loggedin-user {
+		margin-top: 0px;
+	}
+	section.header-container>.header-title {
+		position: relative;
+		font-size: 24px;
+	}
+	.searchforskill-container {
+		width: 95%;
+	}
+	.btn-menu {
+		display :block;
+	}
+	body.page-template-template-home .btn-menu {
+		display: none;
+	}
+	body.page-template-template-home section.header-container>a.loggedin-user-lnk,
+	body.page-template-template-home section.header-container>section.search-container {
+		display: block;
+	}
+	sidebar {
+		padding-top: 0px;
+		margin-top: 0px;
+		display:none;
+		z-index: 999;
+		overflow: scroll; 
+	}
+	ul.vmenu {
+		margin-top: 115px;
+	}
+	section.home-container .row {
+		margin-top : 0px;
+	}
+	section.home-container .row article {
+		margin: 15px 0px;
+	}
+	
+	.initiative-container, 
+	.involve-container, 
+	.invest-container, 
+	.investment-summary-container, 
+	.implementation-container, 
+	.implementation-bottom-container, 
+	.iterate-container,
+	.dashboard-container {
+		margin-left: 0px;
+		padding: 0px 15px;
+		padding-top: 115px;
+	}
+	.dashboard-container {
+		padding-top : 170px;
+	}
+	.dashboard-container .row article {
+		margin-bottom: 5em;
+	}
+	.initiative-container>.row>article {
+		padding-top : 50px;
+	}
+	.initiative-container .row article section.inner-content {
+		margin: 0px;
+	}
+	.typeofinnovation article.col-sm-1 {
+		display: none;
+	}
+	.slider {
+		width: 80%;
+		margin: 20px auto;
+	}
+	.market-segment-container {
+		padding: 0px;
+	}
+	.successmeasures-container .row input, 
+	.successmeasures-container .row select {
+		width: 100%;
+	}
+	.skills-container {
+		padding: 0px;
+	}
+	.skills-item {
+		text-align:center;
+		margin : 15px 0px;
+	}
+	.skills-item label {
+		font-size: 12px;
+		display : block;
+		text-align:center;
+	}
+	.skillset_item section.skillset_item_detail {
+		text-align: center;
+	}
+	.skillset_bottomtext {
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	.slider-howmuchdoyouneed {
+		width : 95%;
+	}
+	.slider-howmuchdoyouneed .ui-slider-label {
+		font-size : 10px;
+	}
+	section.investment-summary-container,
+	section.implementation-bottom-container {
+		padding-top: 20px;
+	}
+	.tbl_investment_summery {
+		width: 80%;
+		margin-bottom : 50px;
+	}
+	section.implementation-container section.initiativetype-container,
+	section.implementation-container section.deliverytype-container,
+	section.blockers-container
+	{
+		margin-bottom: 50px;
+	}
+	section.overallriskrating-container {
+		border:0px;
+	}
+	article.blockers-item {
+		text-align: center;
+		margin: 15px 0px;
+	}
+	article.blockers-item span {
+		display: block;
+		margin: auto;
+	}
+	section.iterate-container {
+		padding: 0px;
+		padding-top: 115px;
+	}
+	.sucess-measure-container section {
+		display : block;
+	}
+	.iterate-phases li.iterate-phase-item {
+		height: 44px;
+	}
+	
+}
+@media screen and (max-width: 767px) { 
+	.invest-container .row section {
+		text-align: center;
+	}
+	.invest-container .row section article.investmentapproach-item {
+		text-align: center;
+		margin: 20px 10px;
+		float: none;
+	}
+	.invest-container .row section article.investmentapproach-item p{
+		text-align :center;
+	}
+}
+@media screen and (max-width: 540px) {
+	ul.iterate-menu li.iterate-menu-item {
+		min-height : 65px;
+		font-size: 12px;
+	}
+	.iterate-phases {
+		margin-left: 10px;
+	}
+	.iterate-phases li.iterate-phase-item>label {
+		font-size: 10px;
+		margin-left: 33px;
+	}
+	.iterate-phases li.iterate-phase-item>span {
+		top: -16px;
+	}
+	.iterate-phases li.iterate-phase-item>span.border {
+		top: -19px;
+	}
+	.iterate-phases li.iterate-phase-item:last-of-type>span {
+		right: -25px;
+	}
+	.iterate-phases li.iterate-phase-item:last-of-type>span.border {
+		right: -30px;
+	}
+	.whattoleverage-container article.whattoleverage-item {
+		text-align: center;
+	}
+	.whattoleverage-container article.whattoleverage-item span {
+		display: block;
+		margin: auto;
+	}
+	.login-container {
+		width: 70%;
+		margin: auto;
+		margin-top: 2em;
+	}
+	.login-user-icon {
+		margin: 50px auto 15px auto;
+		display: block;
+		width: 70%;
+	}
+	section.header-container>section.search-container {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.iterate-phases li.iterate-phase-item {
+		min-height: 44px;
+	}
+	.iterate-phases li.iterate-phase-item>label {
+		margin-left: 0px;
+		position: absolute;
+		z-index: 999;
+	}
+}
+
+
+	
